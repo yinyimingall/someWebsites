@@ -1,0 +1,50 @@
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 56px;
+    margin-bottom: 16px;
+}
+li:before {
+    content: '— ';
+}
+.step h1,h2{
+    text-align: center;
+}
+.auth {
+    font-weight: bold;
+    font-size: 32px;
+    float: right;
+    margin-top: 46px;
+}
+#fcc img{
+    width:900px;
+}
+ul {
+    font-size: 36px;
+}
+#first h2{
+    color: #100fff;
+}
+#second h2 {
+    color: #ffbf00;
+}
+#third h2 {
+    color: #ff1682;
+}
+#fourth h2{
+    color: #ff6d5e;
+}
+#fifth h2 {
+    color: #d12cff;
+}
+#fcc h2 {
+    color: green;
+}
+#seventh h2{
+    color: #ff4500;
+}
+#eighth h2{
+    color: #00a9ff;
+}
+

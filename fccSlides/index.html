@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>前端入坑那点事儿PPT</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/costom.css">
+    <link rel="shortcut icon" href="./assets/y.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div class="step" data-y="-1000">
+        <h1>Step 0: 前端入坑那点事儿</h1>
+        <footer class="auth">分享者：尹一鸣</footer>
+    </div>
+
+    <div id="first" class="step" data-x="1400" data-y="-1000">
+        <h2>Step 1: 每个人接触前端都有一段故事</h2>
+        <ul>
+            <li>从软件测试开始接触到Web</li>
+            <li>改变方向学习java</li>
+            <li>改变方向学习前端</li>
+        </ul>
+    </div>
+
+    <div id="second" class="step" data-x="1200" data-rotate="90">
+        <h2>Step 2: 当我碰上前端</h2>
+        <ul>
+            <li>我发现前端很适合自己</li>
+            <li>前端就是我所要做的职业</li>
+            <li>我发现前端前景一片光明</li>
+        </ul>
+    </div>
+
+    <div id="third" class="step" data-x="1200" data-y="1360" data-rotate="90">
+        <h2>Step 3: 我为什么看好前端？</h2>
+        <ul>
+            <li>移动端混合编程成为普遍开发方式。跨平台，高效率。</li>
+            <li>新技术更新快，具有活力，发展空间当然大。</li>
+            <li>JS很强势</li>
+        </ul>
+    </div>
+    <div id="fourth" class="step" data-x="2200" data-y="1000">
+        <h2>Step 4: JavaScript到处运行</h2>
+        <ul>
+            <li>浏览器客户端</li>
+            <li>NodeJS服务器端</li>
+            <li>硬件。例如三星的物联网框架IoT.js and JerryScript(运行在硬件上的js引擎)</li>
+        </ul>
+        <h3>JS已经可以到处跑了^_^。想象一下js运行在冰箱、电灯、电饭煲里。</h3>
+    </div>
+
+    <div id="fifth" class="step" data-y="1200" data-rotate="180">
+        <h2>Step 5: 从看书开始</h2>
+        <ul>
+            <li>JavaScript高级程序设计（第3版）</li>
+            <li>精通JavaScript（第2版）（John Resig）</li>
+            <li>JavaScript忍者秘籍（John Resig）</li>
+        </ul>
+    </div>
+    <div class="step" data-y="2200" data-rotate="90">
+        <img src="./assets/proJS.jpg" alt="">
+        <img src="./assets/projavas.jpg" alt="">
+        <img src="./assets/ninja.jpg" alt="">
+    </div>
+
+    <div id="fcc" class="step" data-x="-1360" data-y="1200" data-rotate="180">
+        <h2>Step 6: freeCodeCamp <a href="https://www.freecodecamp.cn/home">(Go to)</a></h2>
+        <img style="min-width: 100%" src="./assets/freecodecamp.PNG" alt="">
+    </div>
+    <div id="seventh" class="step" data-x="-1200" data-rotate="270">
+        <h2>Step 7: 从GitHub开始</h2>
+        <ul>
+            <li>GitHub上有非常多的项目可以拿来学习</li>
+            <li>GitHub上积累自己的项目。有成就感的同时积累技术。</li>
+            <li>目标：使用GitHub来做自己的简历，同时分享自己的东西。</li>
+        </ul>
+    </div>
+
+    <div id="eighth" class="step" data-x="-1200" data-y="-1360" data-rotate="270">
+        <h2>Step 8: 做个人项目时Idea很重要</h2>
+        <ul>
+            <li>个人主页<a href="https://yinyimingall.github.io/portfolio/">(Go to)</a></li>
+            <li>番茄钟<a href="https://github.com/yinyimingall/Tomato-Clock">(Go to)</a></li>
+            <li>书单列表（想法）</li>
+            <li>艾宾浩斯学习APP（想法）</li>
+            <li>……</li>
+        </ul>
+    </div>
+
+    <div class="step">
+        <h2>Step 9: 阅读代码</h2>
+        <ul>
+            <li>捋清楚整个目录结构，全局观</li>
+            <li>从主要的入口js文件或者主程序入手</li>
+            <li>主程序下从头走一遍思路，函数调用知道作用就好，先不必深究</li>
+            <li>细化各功能</li>
+        </ul>
+        <h3>读书多了，肚子里有墨水。代码读多了，你就会写了。</h3>
+    </div>
+
+    <div id="overview" class="step" data-scale="5">
+    </div>
+
+</div>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
